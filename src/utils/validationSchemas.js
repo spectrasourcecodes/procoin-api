@@ -1,5 +1,5 @@
 const { body, validationResult } = require('express-validator');
-const AppError = require('./AppError');
+const AppError = require('./appError');
 
 exports.validateRegister = [
   body('fullName').notEmpty().withMessage('Full name is required'),
