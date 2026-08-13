@@ -1,7 +1,7 @@
 const { asyncHandler } = require('../utils/asyncHandler');
 const cryptoService = require('../services/cryptoService');
 const currencyService = require('../services/currencyService');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 
 exports.getMarketData = asyncHandler(async (req, res) => {
   const { ids } = req.query;

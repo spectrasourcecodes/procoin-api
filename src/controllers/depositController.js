@@ -2,7 +2,7 @@ const { asyncHandler } = require('../utils/asyncHandler');
 const walletService = require('../services/walletService');
 const Wallet = require('../models/Wallet');        // ✅ Add
 const Deposit = require('../models/Deposit');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 const { v4: uuidv4 } = require('uuid');
 
 exports.createDeposit = asyncHandler(async (req, res) => {

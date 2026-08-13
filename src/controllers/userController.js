@@ -3,7 +3,7 @@ const Wallet = require('../models/Wallet');
 const Transaction = require('../models/Transaction');
 const Investment = require('../models/Investment');
 const { asyncHandler } = require('../utils/asyncHandler');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 const bcrypt = require('bcryptjs');
 
 // Get user profile

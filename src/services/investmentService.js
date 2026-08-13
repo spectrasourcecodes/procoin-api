@@ -2,7 +2,7 @@ const Investment = require('../models/Investment');
 const InvestmentPlan = require('../models/InvestmentPlan');
 const WalletService = require('./walletService');
 const { v4: uuidv4 } = require('uuid');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 const logger = require('../utils/logger');
 
 class InvestmentService {

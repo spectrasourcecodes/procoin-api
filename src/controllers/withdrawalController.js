@@ -3,7 +3,7 @@ const walletService = require('../services/walletService');
 const Withdrawal = require('../models/Withdrawal');
 const Wallet = require('../models/Wallet');
 const KYC = require('../models/KYC');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 
 exports.requestWithdrawal = asyncHandler(async (req, res) => {
   const { amount, cryptoCurrency, walletAddress } = req.body;

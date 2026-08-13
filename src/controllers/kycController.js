@@ -1,7 +1,7 @@
 const KYC = require('../models/KYC');
 const User = require('../models/User');
 const { asyncHandler } = require('../utils/asyncHandler');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 const logger = require('../utils/logger');
 
 /**

@@ -4,7 +4,7 @@ const Proof = require('../models/Proof');
 const Investment = require('../models/Investment');
 const Deposit = require('../models/Deposit');
 const { asyncHandler } = require('../utils/asyncHandler');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 const { v4: uuidv4 } = require('uuid');
 
 // Configure Cloudinary (should already be configured in upload.js)

@@ -1,6 +1,6 @@
 const KYC = require('../models/KYC');
 const User = require('../models/User');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 
 class KYCService {
   // Create or update KYC

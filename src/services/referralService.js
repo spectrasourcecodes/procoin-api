@@ -2,7 +2,7 @@ const User = require('../models/User');
 const Referral = require('../models/Referral');
 const WalletService = require('./walletService');
 const Setting = require('../models/Setting');
-const AppError = require('../utils/AppError');
+const AppError = require('../utils/appError');
 const logger = require('../utils/logger');
 
 class ReferralService {
